@@ -1,0 +1,537 @@
+{
+  "login": {
+    "title": "ChitFund",
+    "subtitle": "Sign in to manage your organization",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "name@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot Password?",
+    "signInButton": "Sign In",
+    "signingIn": "Signing In...",
+    "errorInvalid": "Invalid email or password. Please try again.",
+    "footerHelp": "Need help?",
+    "contactSupport": "Contact Support"
+  },
+  "navbar": {
+    "brand": "ChitFund Management",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "chitGroups": "Chit Groups",
+    "members": "Members",
+    "payments": "Payments",
+    "auctions": "Auctions",
+    "reports": "Reports",
+    "logout": "Logout",
+    "userDefault": "User"
+  },
+ "dashboard": {
+    "title": "Dashboard Overview",
+    "stats": {
+      "totalUsers": "Total Users",
+      "totalGroups": "Total Groups",
+      "payments": "Payments",
+      "pendingDue": "Pending Due"
+    },
+    "whatsapp": {
+      "totalSent": "Total Sent",
+      "delivered": "Delivered",
+      "readRate": "Read Rate",
+      "activeAlerts": "Active Alerts",
+      "success": "Success"
+    },
+    "communication": {
+      "title": "Communication Breakdown",
+      "noLogs": "No communication logs found in database.",
+      "table": {
+        "type": "Notification Type",
+        "sent": "Sent",
+        "delivered": "Delivered",
+        "read": "Read",
+        "engagement": "Engagement"
+      }
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "viewAll": "View All",
+      "table": {
+        "type": "Type",
+        "description": "Description",
+        "status": "Status"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "newGroup": "New Group",
+      "newGroupSub": "Start chit cycle",
+      "payment": "Payment",
+      "paymentSub": "Log installments"
+    }
+  },
+  "sidebar": {
+    "brand": "ChitFund",
+    "management": "Management",
+    "personal": "Personal",
+    "finance": "Finance",
+    "dashboard": "Dashboard",
+    "users": "Users Management",
+    "groups": "ChitGroup Management",
+    "auctions": "Auctions",
+    "payments": "Payments",
+    "templates": "Notification Templates",
+    "reports": "Reports",
+    "myProfile": "My Profile",
+    "joinGroups": "Join Groups",
+    "notifications": "Notifications",
+    "logout": "Logout"
+  },
+  "reports": {
+    "title": "Reports & Analytics",
+    "export": "Export CSV",
+    "print": "Print",
+    "filters": {
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "type": "Report Type",
+      "generate": "Generate"
+    },
+    "types": {
+      "summary": "Summary Report",
+      "financial": "Financial Report"
+    },
+    "errors": {
+      "selectDates": "Please select start and end date"
+    },
+    "metrics": {
+      "totalGroups": "Total Groups",
+      "activeGroups": "Active Groups",
+      "totalMembers": "Total Members",
+      "transactions": "Transactions",
+      "totalVolume": "Total Volume",
+      "commission": "Commission",
+      "pendingDues": "Pending Dues",
+      "auctionsDone": "Auctions Done"
+    },
+    "tables": {
+      "topGroups": "Top Performing Groups",
+      "recentActivity": "Recent Activity",
+      "group": "Group",
+      "members": "Members",
+      "volume": "Volume",
+      "status": "Status",
+      "type": "Type",
+      "description": "Description",
+      "date": "Date"
+    },
+    "financial": {
+      "overview": "Financial Overview",
+      "totalCollected": "Total Collected",
+      "totalCommission": "Total Commission",
+      "pendingPayments": "Pending Payments",
+      "totalTransactions": "Total Transactions"
+    },
+    "empty": {
+      "noData": "No data available",
+      "noActivity": "No recent activity",
+      "noFinancial": "No financial data generated. Please select dates and click Generate."
+    }
+  }
+  ,"users": {
+    "title": "User Management",
+    "addNew": "Add New User",
+    "import": "Import CSV",
+    "search": "Search by name, email or phone...",
+    "refresh": "Refresh",
+    "roles": {
+      "all": "All Roles",
+      "admin": "Admin",
+      "agent": "Agent",
+      "member": "Member"
+    },
+    "status": {
+      "all": "All Status",
+      "activeOnly": "Active Only",
+      "inactiveOnly": "Inactive Only",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "details": "User Details",
+      "contact": "Contact Info",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "noUsers": "No users found matching your criteria."
+    },
+    "modal": {
+      "edit": "Edit User Profile",
+      "create": "Create New User",
+      "account": "Account Information",
+      "personal": "Personal Details",
+      "labels": {
+        "username": "Username",
+        "email": "Email Address",
+        "role": "System Role",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phone": "Phone Number",
+        "pincode": "Pincode",
+        "address": "Address",
+        "city": "City",
+        "state": "State",
+        "aadhar": "Aadhar Number",
+        "pan": "PAN Number"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "save": "Save Changes",
+        "create": "Create Account"
+      }
+    }
+  },
+  "auctions": {
+    "title": "Auctions",
+    "export": "Export",
+    "schedule": "Schedule",
+    "searchPlaceholder": "Search group, winner, or status...",
+    "clear": "Clear",
+    "table": {
+      "groupDetails": "Group Details",
+      "schedule": "Schedule",
+      "financials": "Financials",
+      "winner": "Winner",
+      "status": "Status",
+      "actions": "Actions",
+      "installment": "Installment #",
+      "base": "Base",
+      "high": "High",
+      "noAuctions": "No auctions found."
+    },
+    "status": {
+      "scheduled": "Scheduled",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "active": "Active",
+      "cancelled": "Cancelled"
+    },
+    "tooltips": {
+      "join": "Join Live Auction",
+      "forceClose": "Force Close",
+      "edit": "Edit Details",
+      "delete": "Delete Auction"
+    },
+    "modal": {
+      "editTitle": "Edit Auction",
+      "scheduleTitle": "Schedule Auction",
+      "chitGroup": "Chit Group",
+      "selectGroup": "-- Select Group --",
+      "installment": "Installment",
+      "baseAmount": "Base Amount (₹)",
+      "auctionDate": "Auction Date",
+      "status": "Status",
+      "highestBid": "Current Highest Bid",
+      "cancel": "Cancel",
+      "save": "Save Schedule",
+      "waitingGroup": "Waiting for Group..."
+    }
+  },"payments": {
+    "title": "Payments",
+    "export": "Export",
+    "recordNew": "Record Payment",
+    "stats": {
+      "totalCollected": "Total Collected",
+      "pendingAmount": "Pending Amount",
+      "transactionCount": "Transaction Count"
+    },
+    "filters": {
+      "group": "Group",
+      "allGroups": "All Groups",
+      "member": "Member",
+      "allMembers": "All Members",
+      "status": "Status",
+      "all": "All",
+      "dateRange": "Date Range",
+      "clear": "Clear"
+    },
+    "table": {
+      "memberInfo": "Member Info",
+      "groupInfo": "Group Info",
+      "payment": "Payment",
+      "details": "Details",
+      "status": "Status",
+      "actions": "Actions",
+      "noPayments": "No payments found matching criteria."
+    },
+    "status": {
+      "paid": "Paid",
+      "pending": "Pending",
+      "failed": "Failed"
+    },
+    "modal": {
+      "editTitle": "Edit Payment",
+      "recordTitle": "Record New Payment",
+      "selectGroup": "Select Group",
+      "groupPlaceholder": "-- Select Group --",
+      "selectMember": "Select Member",
+      "memberPlaceholder": "-- Select Member --",
+      "installment": "Installment (Auto)",
+      "amount": "Amount (₹)",
+      "date": "Payment Date",
+      "method": "Method",
+      "ref": "Reference ID",
+      "remarks": "Remarks",
+      "cancel": "Cancel",
+      "save": "Save Payment",
+      "history": "Payment History",
+      "noHistory": "No history found."
+    },
+    "delete": {
+      "title": "Delete Payment?",
+      "warning": "This action cannot be undone.",
+      "confirm": "Delete"
+    }
+  },"chitManagement": {
+    "title": "Chit Groups",
+    "requests": "Requests",
+    "newGroup": "New Group",
+    "addMember": "Add Member",
+    "searchGroups": "Search groups...",
+    "searchMembers": "Search members...",
+    "inactive": "Inactive",
+    "deactivated": "Deactivated",
+    "monthly": "Monthly",
+    "duration": "Duration",
+    "timelineProgress": "Timeline Progress",
+    "monthsPassed": "Months Passed",
+    "membersEnrolled": "Members Enrolled",
+    "table": {
+      "memberInfo": "Member Info",
+      "status": "Status",
+      "actions": "Actions",
+      "active": "ACTIVE",
+      "inactive": "INACTIVE"
+    },
+    "modal": {
+      "editGroup": "Edit Group",
+      "createGroup": "Create Group",
+      "deleteGroup": "Delete Group?",
+      "enrollMember": "Enroll Member",
+      "name": "Name",
+      "code": "Code",
+      "value": "Value (₹)",
+      "monthly": "Monthly (₹)",
+      "duration": "Duration (M)",
+      "commission": "Comm %",
+      "startDate": "Start Date",
+      "selectUser": "Select User",
+      "chooseUser": "-- Choose User --",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "addToGroup": "Add to Group"
+    },
+    "alerts": {
+      "removeMember": "Remove this member from the group?",
+      "memberEnrolled": "Member enrolled!",
+      "memberRemoved": "Member removed successfully.",
+      "groupCreated": "Group created successfully!",
+      "groupUpdated": "Group updated successfully!",
+      "groupDeleted": "Group deleted.",
+      "failed": "Operation failed."
+    }
+  },"adminRequests": {
+    "title": "Member Requests",
+    "subtitle": "Manage and approve group entry applications",
+    "tabs": {
+      "pending": "Pending",
+      "history": "History"
+    },
+    "labels": {
+      "kycVerified": "KYC Verified",
+      "applyingFor": "Applying For",
+      "commitment": "Commitment",
+      "requestedOn": "Requested on"
+    },
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "empty": {
+      "noPendingTitle": "All caught up!",
+      "noPendingSub": "No pending requests to review.",
+      "noHistory": "No history found."
+    },
+    "modal": {
+      "approveTitle": "Approve Request?",
+      "rejectTitle": "Reject Request?",
+      "body": "Are you sure you want to {{action}} {{name}} for the group {{group}}?"
+    },
+    "historyText": "{{name}} was {{status}} for {{group}}"
+  },"memberProfile": {
+    "editProfile": "Edit Profile",
+    "stats": {
+      "totalInvested": "Total Invested",
+      "lifetime": "Lifetime Contribution",
+      "activeChits": "Active Chits",
+      "currentlyActive": "Currently Active Groups",
+      "upcomingPayment": "Upcoming Payment",
+      "nextMonth": "Amount to be paid in next month"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "download": "Download Statement",
+      "support": "Help & Support"
+    },
+    "tabs": {
+      "myGroups": "My Active Groups",
+      "history": "Payment History"
+    },
+    "table": {
+      "groupName": "Group Name",
+      "totalValue": "Total Value",
+      "monthlyDue": "Monthly Due",
+      "status": "Status",
+      "date": "Date",
+      "amount": "Amount"
+    },
+    "modal": {
+      "editTitle": "Edit Profile",
+      "fullName": "Full Name",
+      "phone": "Phone Number",
+      "aadhar": "Aadhar Number",
+      "pan": "PAN Number",
+      "address": "Address",
+      "save": "Save Changes",
+      "payTitle": "Make a Payment",
+      "selectGroup": "Select Group",
+      "placeholderGroup": "-- Select a Group --",
+      "confirmPay": "Confirm & Pay",
+      "supportTitle": "Help & Support",
+      "adminContact": "Admin / Agent Contact",
+      "updateNotice": "You will get updated in the next 24 hrs.",
+      "reachOut": "Our team is active and will reach out to you directly.",
+      "close": "Close"
+    },
+    "alerts": {
+      "paySuccess": "Payment Successful!",
+      "payFailed": "Payment Failed. Try again.",
+      "profileUpdated": "Profile updated!",
+      "updateFailed": "Update failed.",
+      "noDataDownload": "No payment history available to download."
+    }
+  },"joinGroup": {
+    "title": "Explore Groups",
+    "availableTab": "Available Groups",
+    "requestsTab": "My Requests",
+    "searchPlaceholder": "Search by amount (e.g. 50000) or name...",
+    "starts": "Starts:",
+    "totalValue": "Total Value",
+    "monthly": "Monthly",
+    "duration": "Duration",
+    "months": "Months",
+    "filled": "filled",
+    "groupFull": "Group Full",
+    "requestBtn": "Request",
+    "requestedOn": "Requested:",
+    "monthShort": "month",
+    "noGroupsFound": "No groups found matching \"{{term}}\"",
+    "noRequests": "No active requests found.",
+    "loading": "Loading...",
+    "status": {
+      "pending": "Pending",
+      "rejected": "Rejected",
+      "approved": "Approved"
+    },
+    "modal": {
+      "title": "Confirm Request",
+      "body": "You are requesting to join",
+      "commitment": "Commitment:",
+      "duration": "Duration:",
+      "disclaimer": "By clicking confirm, your profile will be sent to the admin for verification.",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "alerts": {
+      "loginRequired": "Please log in to view groups.",
+      "success": "Request sent successfully!",
+      "failed": "Failed to send request"
+    }
+  },"liveAuction": {
+    "live": "LIVE",
+    "closed": "CLOSED",
+    "currentHighestBid": "Current Highest Bid",
+    "heldBy": "Held by",
+    "activityLog": "Activity Log",
+    "bids": "Bids",
+    "noBidsTitle": "No bids yet.",
+    "noBidsSub": "Be the first to start the auction!",
+    "placedBidText": "Placed a bid of",
+    "placeYourBid": "Place Your Bid",
+    "customAmount": "Custom Amount",
+    "placeBidBtn": "PLACE BID",
+    "memberOnlyError": "Only group members can bid.",
+    "adminControls": "Admin Controls",
+    "forceClose": "Force Close Auction",
+    "auctionClosedTitle": "Auction Closed",
+    "winnerDeclared": "The winner has been declared.",
+    "winningBid": "Winning Bid",
+    "errorHigherBid": "Bid must be > ₹{{amount}}",
+    "confirmClose": "Close auction and declare winner?"
+  },"notificationSettings": {
+    "title": "WhatsApp Notifications",
+    "description": "Choose which alerts you want to receive on your registered phone number.",
+    "monthly": {
+      "label": "Upcoming Payment Reminders",
+      "desc": "Alerts 3 days before your installment due date."
+    },
+    "overdue": {
+      "label": "Overdue Alerts",
+      "desc": "Warnings for missed payments and late fees."
+    },
+    "receipt": {
+      "label": "Payment Receipts",
+      "desc": "Instant confirmation when your payment is recorded."
+    },
+    "auctionStart": {
+      "label": "Auction Invitations",
+      "desc": "Get notified the moment a new group auction begins."
+    },
+    "auctionWinner": {
+      "label": "Auction Winners",
+      "desc": "Receive congratulations and dividend updates when an auction closes."
+    }
+  },"notificationTemplates": {
+    "title": "WhatsApp Templates",
+    "subtitle": "Customize the automated messages sent to your members.",
+    "tabs": {
+      "payments": "Payments & Reminders",
+      "auctions": "Auctions",
+      "groups": "Groups & Requests",
+      "members": "Members",
+      "other": "Other"
+    },
+    "table": {
+      "name": "Template Name",
+      "message": "Current Message",
+      "action": "Action",
+      "edit": "Edit"
+    },
+    "modal": {
+      "editTitle": "Edit Template:",
+      "proTip": "Pro Tip:",
+      "proTipDesc": "Use asterisks to make text bold (e.g., *Total Amount*). Click the blue variables below to insert them dynamically.",
+      "tags": "Available Tags:",
+      "preview": "Live Preview:",
+      "cancel": "Cancel",
+      "save": "Save Template"
+    },
+    "alerts": {
+      "loadError": "Error loading templates.",
+      "saveSuccess": "{{name}} updated successfully!",
+      "saveError": "Failed to update template."
+    }
+  }
+}

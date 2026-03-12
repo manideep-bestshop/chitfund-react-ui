@@ -1,0 +1,414 @@
+{
+  "login": {
+    "subtitle": "अपने संगठन को प्रबंधित करने के लिए साइन इन करें",
+    "emailLabel": "ईमेल पता",
+    "emailPlaceholder": "name@example.com",
+    "passwordLabel": "पासवर्ड",
+    "passwordPlaceholder": "••••••••",
+    "rememberMe": "मुझे याद रखें",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "signIn": "साइन इन करें",
+    "signingIn": "साइन इन हो रहा है...",
+    "needHelp": "सहायता की ज़रूरत है?",
+    "contactSupport": "सहायता टीम से संपर्क करें",
+    "errorInvalid": "अमान्य ईमेल या पासवर्ड। कृपया पुनः प्रयास करें।",
+    "sessionExpired": "सत्र समाप्त हो गया। कृपया फिर से लॉगिन करें।"
+  },
+  "navbar": {
+    "brand": "चिटफंड प्रबंधन",
+    "dashboard": "डैशबोर्ड",
+    "users": "उपयोगकर्ता",
+    "chitGroups": "चिट समूह",
+    "members": "सदस्य",
+    "payments": "भुगतान",
+    "auctions": "नीलामी",
+    "reports": "रिपोर्ट",
+    "logout": "लॉग आउट",
+    "userDefault": "उपयोगकर्ता"
+  },
+ "dashboard": {
+    "title": "डैशबोर्ड अवलोकन",
+    "stats": {
+      "totalUsers": "कुल उपयोगकर्ता",
+      "totalGroups": "कुल समूह",
+      "payments": "भुगतान",
+      "pendingDue": "लंबित बकाया"
+    },
+    "whatsapp": {
+      "totalSent": "कुल भेजे गए",
+      "delivered": "डिलीवर किए गए",
+      "readRate": "पढ़ने की दर",
+      "activeAlerts": "सक्रिय अलर्ट",
+      "success": "सफलता"
+    },
+    "communication": {
+      "title": "संचार विवरण",
+      "noLogs": "डेटाबेस में कोई संचार लॉग नहीं मिला।",
+      "table": {
+        "type": "अधिसूचना प्रकार",
+        "sent": "भेजे गए",
+        "delivered": "डिलीवर",
+        "read": "पढ़े गए",
+        "engagement": "जुड़ाव"
+      }
+    },
+    "activity": {
+      "title": "हाल की गतिविधि",
+      "viewAll": "सभी देखें",
+      "table": {
+        "type": "प्रकार",
+        "description": "विवरण",
+        "status": "स्थिति"
+      }
+    },
+    "quickActions": {
+      "title": "त्वरित कार्रवाई",
+      "newGroup": "नया समूह",
+      "newGroupSub": "चिट चक्र शुरू करें",
+      "payment": "भुगतान",
+      "paymentSub": "किश्तें दर्ज करें"
+    }
+  },
+  "sidebar": {
+    "brand": "चिटफंड",
+    "management": "प्रबंधन",
+    "personal": "व्यक्तिगत",
+    "finance": "वित्त",
+    "dashboard": "डैशबोर्ड",
+    "users": "उपयोगकर्ता प्रबंधन",
+    "groups": "चिट समूह प्रबंधन",
+    "auctions": "नीलामी",
+    "payments": "भुगतान",
+    "templates": "अधिसूचना टेम्पलेट",
+    "reports": "रिपोर्ट",
+    "myProfile": "मेरी प्रोफाइल",
+    "joinGroups": "समूहों में शामिल हों",
+    "notifications": "अधिसूचनाएं",
+    "logout": "लॉग आउट"
+  },
+  "reports": {
+    "title": "रिपोर्ट्स और एनालिटिक्स",
+    "export": "CSV निर्यात करें",
+    "print": "प्रिंट",
+    "filters": {
+      "startDate": "प्रारंभ तिथि",
+      "endDate": "अंतिम तिथि",
+      "type": "रिपोर्ट का प्रकार",
+      "generate": "रिपोर्ट तैयार करें"
+    },
+    "types": {
+      "summary": "सारांश रिपोर्ट",
+      "financial": "वित्तीय रिपोर्ट"
+    },
+    "errors": {
+      "selectDates": "कृपया प्रारंभ और अंतिम तिथि चुनें"
+    },
+    "metrics": {
+      "totalGroups": "कुल समूह",
+      "activeGroups": "सक्रिय समूह",
+      "totalMembers": "कुल सदस्य",
+      "transactions": "लेनदेन",
+      "totalVolume": "कुल लेनदेन राशि",
+      "commission": "कमीशन",
+      "pendingDues": "लंबित बकाया",
+      "auctionsDone": "पूरी हुई नीलामी"
+    },
+    "tables": {
+      "topGroups": "बेहतरीन प्रदर्शन करने वाले समूह",
+      "recentActivity": "हाल की गतिविधि",
+      "group": "समूह",
+      "members": "सदस्य",
+      "volume": "राशि",
+      "status": "स्थिति",
+      "type": "प्रकार",
+      "description": "विवरण",
+      "date": "तारीख"
+    },
+    "financial": {
+      "overview": "वित्तीय अवलोकन",
+      "totalCollected": "कुल संग्रह",
+      "totalCommission": "कुल कमीशन",
+      "pendingPayments": "लंबित भुगतान",
+      "totalTransactions": "कुल लेनदेन"
+    },
+    "empty": {
+      "noData": "कोई डेटा उपलब्ध नहीं है",
+      "noActivity": "कोई हालिया गतिविधि नहीं",
+      "noFinancial": "कोई वित्तीय डेटा तैयार नहीं हुआ। कृपया तिथियां चुनें और 'तैयार करें' पर क्लिक करें।"
+    }
+},
+  "users": {
+    "title": "उपयोगकर्ता प्रबंधन",
+    "addNew": "नया उपयोगकर्ता जोड़ें",
+    "import": "CSV आयात करें",
+    "search": "नाम, ईमेल या फोन द्वारा खोजें...",
+    "refresh": "ताज़ा करें",
+    "roles": {
+      "all": "सभी भूमिकाएँ",
+      "admin": "व्यवस्थापक",
+      "agent": "एजेंट",
+      "member": "सदस्य"
+    },
+    "status": {
+      "all": "सभी स्थिति",
+      "activeOnly": "केवल सक्रिय",
+      "inactiveOnly": "केवल निष्क्रिय",
+      "active": "सक्रिय",
+      "inactive": "निष्क्रिय"
+    },
+    "table": {
+      "details": "उपयोगकर्ता विवरण",
+      "contact": "संपर्क जानकारी",
+      "role": "भूमिका",
+      "status": "स्थिति",
+      "actions": "कार्रवाई",
+      "noUsers": "आपके मानदंड से मेल खाने वाला कोई उपयोगकर्ता नहीं मिला।"
+    },
+    "modal": {
+      "edit": "उपयोगकर्ता प्रोफ़ाइल संपादित करें",
+      "create": "नया उपयोगकर्ता बनाएँ",
+      "account": "खाता जानकारी",
+      "personal": "व्यक्तिगत विवरण",
+      "labels": {
+        "username": "उपयोगकर्ता नाम",
+        "email": "ईमेल पता",
+        "role": "सिस्टम भूमिका",
+        "firstName": "पहला नाम",
+        "lastName": "अंतिम नाम",
+        "phone": "फ़ोन नंबर",
+        "pincode": "पिनकोड",
+        "address": "पता",
+        "city": "शहर",
+        "state": "राज्य",
+        "aadhar": "आधार नंबर",
+        "pan": "पैन नंबर"
+      },
+      "buttons": {
+        "cancel": "रद्द करें",
+        "save": "परिवर्तन सहेजें",
+        "create": "खाता बनाएँ"
+      }
+    }
+  },
+  "auctions": {
+    "title": "नीलामी",
+    "export": "निर्यात",
+    "schedule": "अनुसूची",
+    "searchPlaceholder": "समूह, विजेता या स्थिति खोजें...",
+    "clear": "साफ़ करें",
+    "table": {
+      "groupDetails": "समूह विवरण",
+      "schedule": "अनुसूची",
+      "financials": "वित्तीय विवरण",
+      "winner": "विजेता",
+      "status": "स्थिति",
+      "actions": "कार्रवाई",
+      "installment": "किस्त #",
+      "base": "आधार मूल्य",
+      "high": "उच्चतम मूल्य",
+      "noAuctions": "कोई नीलामी नहीं मिली।"
+    },
+    "status": {
+      "scheduled": "अनुसूचित",
+      "inProgress": "प्रगति पर है",
+      "completed": "पूरा हुआ",
+      "active": "सक्रिय",
+      "cancelled": "रद्द"
+    }
+  },"payments": {
+    "title": "भुगतान",
+    "export": "निर्यात",
+    "recordNew": "भुगतान दर्ज करें",
+    "stats": {
+      "totalCollected": "कुल संग्रह",
+      "pendingAmount": "लंबित राशि",
+      "transactionCount": "लेनदेन की संख्या"
+    },
+    "filters": {
+      "group": "समूह",
+      "allGroups": "सभी समूह",
+      "member": "सदस्य",
+      "allMembers": "सभी सदस्य",
+      "status": "स्थिति",
+      "all": "सभी",
+      "dateRange": "तिथि सीमा",
+      "clear": "साफ़ करें"
+    },
+    "table": {
+      "memberInfo": "सदस्य की जानकारी",
+      "groupInfo": "समूह की जानकारी",
+      "payment": "भुगतान",
+      "details": "विवरण",
+      "status": "स्थिति",
+      "actions": "कार्रवाई",
+      "noPayments": "मानदंडों से मेल खाने वाला कोई भुगतान नहीं मिला।"
+    }
+},"chitManagement": {
+    "title": "चिट समूह",
+    "requests": "अनुरोध",
+    "newGroup": "नया समूह",
+    "addMember": "सदस्य जोड़ें",
+    "searchGroups": "समूह खोजें...",
+    "searchMembers": "सदस्य खोजें...",
+    "inactive": "निष्क्रिय",
+    "deactivated": "डीएक्टिवेट किया गया",
+    "monthly": "मासिक",
+    "duration": "अवधि",
+    "timelineProgress": "समयरेखा प्रगति",
+    "monthsPassed": "महीने बीते",
+    "membersEnrolled": "सदस्य नामांकित",
+    "table": {
+      "memberInfo": "सदस्य जानकारी",
+      "status": "स्थिति",
+      "actions": "कार्रवाई",
+      "active": "सक्रिय",
+      "inactive": "निष्क्रिय"
+    }
+  },"adminRequests": {
+    "title": "सदस्य अनुरोध",
+    "subtitle": "समूह प्रवेश आवेदनों को प्रबंधित और अनुमोदित करें",
+    "tabs": {
+      "pending": "लंबित",
+      "history": "इतिहास"
+    },
+    "labels": {
+      "kycVerified": "KYC सत्यापित",
+      "applyingFor": "आवेदन कर रहे हैं",
+      "commitment": "प्रतिबद्धता",
+      "requestedOn": "को अनुरोध किया गया"
+    },
+    "actions": {
+      "approve": "अनुमोदित करें",
+      "reject": "अस्वीकार करें",
+      "cancel": "रद्द करें",
+      "confirm": "पुष्टि करें"
+    }
+  },"memberProfile": {
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "stats": {
+      "totalInvested": "कुल निवेश",
+      "lifetime": "आजीवन योगदान",
+      "activeChits": "सक्रिय चिट्स",
+      "currentlyActive": "वर्तमान में सक्रिय समूह",
+      "upcomingPayment": "आगामी भुगतान",
+      "nextMonth": "अगले महीने भुगतान की जाने वाली राशि"
+    },
+    "quickActions": {
+      "title": "त्वरित कार्रवाई",
+      "download": "विवरण डाउनलोड करें",
+      "support": "सहायता और समर्थन"
+    },
+    "tabs": {
+      "myGroups": "मेरे सक्रिय समूह",
+      "history": "भुगतान इतिहास"
+    },
+    "table": {
+      "groupName": "समूह का नाम",
+      "totalValue": "कुल मूल्य",
+      "monthlyDue": "मासिक देय",
+      "status": "स्थिति",
+      "date": "दिनांक",
+      "amount": "राशि"
+    }
+  },"joinGroup": {
+    "title": "समूहों को देखें",
+    "availableTab": "उपलब्ध समूह",
+    "requestsTab": "मेरे अनुरोध",
+    "searchPlaceholder": "राशि (जैसे 50000) या नाम से खोजें...",
+    "starts": "शुरू होता है:",
+    "totalValue": "कुल मूल्य",
+    "monthly": "मासिक",
+    "duration": "अवधि",
+    "months": "महीने",
+    "filled": "भरे हुए",
+    "groupFull": "समूह भर गया है",
+    "requestBtn": "अनुरोध करें",
+    "requestedOn": "अनुरोध किया गया:",
+    "monthShort": "महीना",
+    "noGroupsFound": "\"{{term}}\" से मेल खाने वाला कोई समूह नहीं मिला",
+    "noRequests": "कोई सक्रिय अनुरोध नहीं मिला।",
+    "loading": "लोड हो रहा है...",
+    "status": {
+      "pending": "लंबित",
+      "rejected": "अस्वीकृत",
+      "approved": "अनुमोदित"
+    },
+    "modal": {
+      "title": "अनुरोध की पुष्टि करें",
+      "body": "आप इसमें शामिल होने का अनुरोध कर रहे हैं:",
+      "commitment": "प्रतिबद्धता:",
+      "duration": "अवधि:",
+      "disclaimer": "पुष्टि पर क्लिक करने से, आपकी प्रोफ़ाइल सत्यापन के लिए व्यवस्थापक को भेज दी जाएगी।",
+      "cancel": "रद्द करें",
+      "confirm": "पुष्टि करें"
+    }
+  },"liveAuction": {
+    "live": "लाइव",
+    "closed": "समाप्त",
+    "currentHighestBid": "वर्तमान उच्चतम बोली",
+    "heldBy": "इनके पास है",
+    "activityLog": "गतिविधि लॉग",
+    "bids": "बोलियाँ",
+    "noBidsTitle": "अभी तक कोई बोली नहीं।",
+    "noBidsSub": "नीलामी शुरू करने के लिए पहली बोली लगाएँ!",
+    "placedBidText": "की बोली लगाई",
+    "placeYourBid": "अपनी बोली लगाएँ",
+    "customAmount": "राशि दर्ज करें",
+    "placeBidBtn": "बोली लगाएँ",
+    "memberOnlyError": "केवल समूह के सदस्य ही बोली लगा सकते हैं।",
+    "adminControls": "एडమిన్ नियंत्रण",
+    "forceClose": "नीलामी बंद करें",
+    "auctionClosedTitle": "नीलामी समाप्त",
+    "winnerDeclared": "विजेता घोषित कर दिया गया है।",
+    "winningBid": "जीतने वाली बोली"
+  },
+  "notificationSettings": {
+    "title": "व्हाट्सएप सूचनाएं",
+    "description": "चुनें कि आप अपने पंजीकृत फोन नंबर पर कौन से अलर्ट प्राप्त करना चाहते हैं।",
+    "monthly": {
+      "label": "आगामी भुगतान रिमाइंडर",
+      "desc": "आपकी किस्त की देय तिथि से 3 दिन पहले अलर्ट।"
+    },
+    "overdue": {
+      "label": "बकाया अलर्ट",
+      "desc": "छूटे हुए भुगतान और विलंब शुल्क के लिए चेतावनी।"
+    },
+    "receipt": {
+      "label": "भुगतान रसीदें",
+      "desc": "भुगतान दर्ज होने पर त्वरित पुष्टि।"
+    },
+    "auctionStart": {
+      "label": "नीलामी निमंत्रण",
+      "desc": "नई समूह नीलामी शुरू होते ही सूचित किया जाए।"
+    },
+    "auctionWinner": {
+      "label": "नीलामी विजेता",
+      "desc": "नीलामी समाप्त होने पर बधाई और लाभांश अपडेट प्राप्त करें।"
+    }
+  },"notificationTemplates": {
+    "title": "व्हाट्सएप टेम्पलेट्स",
+    "subtitle": "अपने सदस्यों को भेजे जाने वाले स्वचालित संदेशों को कस्टमाइज़ करें।",
+    "tabs": {
+      "payments": "भुगतान और अनुस्मारक",
+      "auctions": "नीलामी",
+      "groups": "समूह और अनुरोध",
+      "members": "सदस्य",
+      "other": "अन्य"
+    },
+    "table": {
+      "name": "टेम्पलेट का नाम",
+      "message": "वर्तमान संदेश",
+      "action": "कार्रवाई",
+      "edit": "संपादित करें"
+    },
+    "modal": {
+      "editTitle": "टेम्पलेट संपादित करें:",
+      "proTip": "सुझाव:",
+      "proTipDesc": "टेक्स्ट को बोल्ड करने के लिए स्टार (*) का उपयोग करें। गतिशील टैग जोड़ने के लिए नीचे दिए गए ब्लू बटन पर क्लिक करें।",
+      "tags": "उपलब्ध टैग:",
+      "preview": "लाइव पूर्वावलोकन:",
+      "cancel": "रद्द करें",
+      "save": "टेम्पलेट सहेजें"
+    }
+  }
+}

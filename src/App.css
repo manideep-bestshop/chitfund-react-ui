@@ -1,0 +1,160 @@
+.App {
+  text-align: left;
+  
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: #343a40;
+  padding: 0;
+}
+
+.sidebar .nav-link {
+  color: #adb5bd;
+  padding: 1rem;
+  border-bottom: 1px solid #495057;
+}
+
+.sidebar .nav-link:hover {
+  color: #fff;
+  background-color: #495057;
+}
+
+.sidebar .nav-link.active {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.main-content {
+  padding: 0;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  font-weight: 600;
+}
+
+.table th {
+  border-top: none;
+  font-weight: 600;
+  color: #495057;
+  background-color: #f1f4f8 !important; /* Distinct header color */
+  border-bottom: 2px solid #3b82f6 !important; /* Primary color accent line */
+  font-weight: 600;
+}
+.custom-horizontal-lines tbody tr td, 
+.custom-horizontal-lines thead tr th {
+    border-bottom: 1.5px solid #cbd5e1 !important; /* Adjust thickness and color here */
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+/* Ensure the last row doesn't have a double border if necessary */
+.custom-horizontal-lines tbody tr:last-child td {
+    border-bottom: 1px solid #cbd5e1 !important;
+}
+
+/* Optional: Slight shadow or hover effect to make the row separation clearer */
+.custom-horizontal-lines tbody tr:hover {
+    background-color: #f1f5f9 !important;
+}
+
+.btn-action {
+  margin-right: 0.25rem;
+}
+
+.status-badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.status-active {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-completed {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.status-cancelled {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.dashboard-card {
+  transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-2px);
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+}
+
+.stat-card .card-body {
+  padding: 1.5rem;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.required {
+  color: #dc3545;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+}
+
+.error {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.success {
+  color: #28a745;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* This removes the default Bootstrap dropdown arrow */
+.no-caret::after {
+    display: none !important;
+}
+
