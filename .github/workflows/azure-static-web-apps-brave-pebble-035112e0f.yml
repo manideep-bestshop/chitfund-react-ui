@@ -4,59 +4,29 @@ on:
 push:
 branches:
 - main
-pull_request:
-types: [opened, synchronize, reopened, closed]
-branches:
-- main
 
 jobs:
 build_and_deploy_job:
-if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
 runs-on: ubuntu-latest
-name: Build and Deploy Job
+name: Build and Deploy
 
 ```
-permissions:
-  id-token: write
-  contents: read
-
 steps:
-  - uses: actions/checkout@v3
-    with:
-      submodules: true
-      lfs: false
+  - name: Checkout repository
+    uses: actions/checkout@v3
 
-  # Setup Node
   - name: Setup Node
     uses: actions/setup-node@v3
     with:
       node-version: 18
 
-  # Install dependencies with conflict fix
   - name: Install dependencies
     run: npm install --legacy-peer-deps
 
-  # Install OIDC Client
-  - name: Install OIDC Client from Core Package
-    run: npm install @actions/core@1.6.0 @actions/http-client --legacy-peer-deps
-
-  # Get GitHub ID Token
-  - name: Get Id Token
-    uses: actions/github-script@v6
-    id: idtoken
-    with:
-      script: |
-        const core = require('@actions/core')
-        return await core.getIDToken()
-      result-encoding: string
-
-  # Build React App
   - name: Build React App
     run: CI=false npm run build
 
-  # Deploy to Azure Static Web Apps
-  - name: Build And Deploy
-    id: builddeploy
+  - name: Deploy to Azure Static Web Apps
     uses: Azure/static-web-apps-deploy@v1
     with:
       azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_BRAVE_PEBBLE_035112E0F }}
@@ -64,15 +34,4 @@ steps:
       app_location: "/"
       api_location: ""
       output_location: "build"
-      github_id_token: ${{ steps.idtoken.outputs.result }}
 ```
-
-close_pull_request_job:
-if: github.event_name == 'pull_request' && github.event.action == 'closed'
-runs-on: ubuntu-latest
-name: Close Pull Request Job
-steps:
-- name: Close Pull Request
-uses: Azure/static-web-apps-deploy@v1
-with:
-action: "close"
