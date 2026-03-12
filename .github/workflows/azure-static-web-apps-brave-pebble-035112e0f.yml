@@ -28,8 +28,7 @@ jobs:
         id: idtoken
         with:
           script: |
-            # We use the 'core' object built into the github-script action.
-            # This avoids running 'npm install' and prevents dependency conflicts.
+            // Use double slashes for comments here, not the # symbol
             return await core.getIDToken()
           result-encoding: string
 
